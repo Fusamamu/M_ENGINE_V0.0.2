@@ -1,6 +1,12 @@
-#include <iostream>
+#include <MUCGUP_ENGINE_CORE>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+int main()
+{
+    MUGCUP::Engine _engine;
+
+    _engine.Start();
+    _engine.Update();
+    _engine.Quit();
+
     return 0;
 }
