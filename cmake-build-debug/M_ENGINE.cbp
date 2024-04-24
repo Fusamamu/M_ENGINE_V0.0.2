@@ -26,6 +26,7 @@
 				<Compiler>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include"/>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include"/>
+					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/spdlog/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -48,6 +49,7 @@
 				<Compiler>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include"/>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include"/>
+					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/spdlog/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -91,6 +93,7 @@
 					<Add option="-DMUGCUP_PLATFORM_MACOS"/>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include"/>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include"/>
+					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/spdlog/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Cocoa.framework"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/IOKit.framework"/>
@@ -118,6 +121,7 @@
 					<Add option="-DMUGCUP_PLATFORM_MACOS"/>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include"/>
 					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include"/>
+					<Add directory="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/spdlog/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Cocoa.framework"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/IOKit.framework"/>
@@ -142,6 +146,9 @@
 		<Unit filename="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Events/Event.cpp">
 			<Option target="MUGCUP_ENGINE"/>
 		</Unit>
+		<Unit filename="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Log.cpp">
+			<Option target="MUGCUP_ENGINE"/>
+		</Unit>
 		<Unit filename="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/MUGCUP_ENGINE.cpp">
 			<Option target="MUGCUP_ENGINE"/>
 		</Unit>
@@ -164,6 +171,9 @@
 			<Option target="MUGCUP_ENGINE"/>
 		</Unit>
 		<Unit filename="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include/KeyCodes.h">
+			<Option target="MUGCUP_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include/Log.h">
 			<Option target="MUGCUP_ENGINE"/>
 		</Unit>
 		<Unit filename="/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include/MUGCUP_ENGINE">

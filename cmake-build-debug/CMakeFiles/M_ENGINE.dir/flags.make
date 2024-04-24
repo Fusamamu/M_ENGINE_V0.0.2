@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include
+CXX_INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/spdlog/include
 
 CXX_FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
 

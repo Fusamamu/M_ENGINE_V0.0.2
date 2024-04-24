@@ -34,13 +34,15 @@ set(HEADER_FILES
         include/Events/MouseEvent.h
         include/Events/MouseEvent.h
         include/KeyCodes.h
-        include/MouseCodes.h)
+        include/MouseCodes.h
+        include/Log.h)
 
 set(SOURCE_FILES
         MUGCUP_ENGINE.cpp
         Engine.cpp
         Window.cpp
-        Events/Event.cpp)
+        Events/Event.cpp
+        Log.cpp)
 
 add_library(${ENGINE_NAME}
         ${SOURCE_FILES}
@@ -49,6 +51,7 @@ add_library(${ENGINE_NAME}
 
 target_precompile_headers(${ENGINE_NAME} PRIVATE ${PCH})
 target_include_directories(${ENGINE_NAME} PUBLIC include ../Dependencies/GLFW/include)
+target_include_directories(${ENGINE_NAME} PUBLIC include ../Dependencies/spdlog/include)
 
 target_link_libraries(${ENGINE_NAME} PUBLIC glfw_lib)
 target_link_libraries(${ENGINE_NAME} PUBLIC ${OPENGL_gl_LIBRARY})

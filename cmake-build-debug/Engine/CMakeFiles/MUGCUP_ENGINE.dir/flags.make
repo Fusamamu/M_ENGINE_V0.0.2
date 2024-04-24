@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -DMUGCUP_PLATFORM_MACOS
 
-CXX_INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/spdlog/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
 
 CXX_FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
 
@@ -17,4 +17,6 @@ CXX_FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer
 # PCH options: Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
 
 # PCH options: Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
+
+# PCH options: Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
 

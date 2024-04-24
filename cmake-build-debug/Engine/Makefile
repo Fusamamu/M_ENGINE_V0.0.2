@@ -178,6 +178,30 @@ Events/Event.cpp.s:
 	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/MUGCUP_ENGINE.dir/build.make Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.s
 .PHONY : Events/Event.cpp.s
 
+Log.o: Log.cpp.o
+.PHONY : Log.o
+
+# target to build an object file
+Log.cpp.o:
+	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/MUGCUP_ENGINE.dir/build.make Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o
+.PHONY : Log.cpp.o
+
+Log.i: Log.cpp.i
+.PHONY : Log.i
+
+# target to preprocess a source file
+Log.cpp.i:
+	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/MUGCUP_ENGINE.dir/build.make Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.i
+.PHONY : Log.cpp.i
+
+Log.s: Log.cpp.s
+.PHONY : Log.s
+
+# target to generate assembly for a file
+Log.cpp.s:
+	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/MUGCUP_ENGINE.dir/build.make Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.s
+.PHONY : Log.cpp.s
+
 MUGCUP_ENGINE.o: MUGCUP_ENGINE.cpp.o
 .PHONY : MUGCUP_ENGINE.o
 
@@ -256,6 +280,9 @@ help:
 	@echo "... Events/Event.o"
 	@echo "... Events/Event.i"
 	@echo "... Events/Event.s"
+	@echo "... Log.o"
+	@echo "... Log.i"
+	@echo "... Log.s"
 	@echo "... MUGCUP_ENGINE.o"
 	@echo "... MUGCUP_ENGINE.i"
 	@echo "... MUGCUP_ENGINE.s"

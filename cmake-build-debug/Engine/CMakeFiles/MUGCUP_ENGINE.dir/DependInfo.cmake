@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o.d"
   "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Events/Event.cpp" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o.d"
   "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o.d"
+  "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Log.cpp" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o.d"
+  "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o.d"
   "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/MUGCUP_ENGINE.cpp" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o.d"
   "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o.d"
   "/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Window.cpp" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o" "gcc" "Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o.d"

@@ -148,12 +148,29 @@ Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.s"
 	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx -S /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Events/Event.cpp -o CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.s
 
+Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o: Engine/CMakeFiles/MUGCUP_ENGINE.dir/flags.make
+Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o: /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Log.cpp
+Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o: Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
+Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o: Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch
+Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o: Engine/CMakeFiles/MUGCUP_ENGINE.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o"
+	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx -MD -MT Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o -MF CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o.d -o CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o -c /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Log.cpp
+
+Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.i"
+	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx -E /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Log.cpp > CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.i
+
+Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.s"
+	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx -S /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Log.cpp -o CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.s
+
 # Object files for target MUGCUP_ENGINE
 MUGCUP_ENGINE_OBJECTS = \
 "CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o" \
 "CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o" \
 "CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o" \
-"CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o"
+"CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o" \
+"CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o"
 
 # External object files for target MUGCUP_ENGINE
 MUGCUP_ENGINE_EXTERNAL_OBJECTS =
@@ -163,9 +180,10 @@ Engine/libMUGCUP_ENGINE.a: Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp
 Engine/libMUGCUP_ENGINE.a: Engine/CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o
 Engine/libMUGCUP_ENGINE.a: Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o
 Engine/libMUGCUP_ENGINE.a: Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o
+Engine/libMUGCUP_ENGINE.a: Engine/CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o
 Engine/libMUGCUP_ENGINE.a: Engine/CMakeFiles/MUGCUP_ENGINE.dir/build.make
 Engine/libMUGCUP_ENGINE.a: Engine/CMakeFiles/MUGCUP_ENGINE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libMUGCUP_ENGINE.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libMUGCUP_ENGINE.a"
 	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine && $(CMAKE_COMMAND) -P CMakeFiles/MUGCUP_ENGINE.dir/cmake_clean_target.cmake
 	cd /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MUGCUP_ENGINE.dir/link.txt --verbose=$(VERBOSE)
 

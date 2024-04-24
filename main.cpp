@@ -2,6 +2,9 @@
 
 int main()
 {
+    MUGCUP::Log::Init();
+    MC_CORE_TRACE("MUGCUP Init");
+
     MUGCUP::Engine _engine;
 
     _engine.Start();

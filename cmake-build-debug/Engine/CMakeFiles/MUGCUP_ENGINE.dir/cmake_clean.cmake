@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o.d"
   "CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o"
   "CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o.d"
+  "CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o"
+  "CMakeFiles/MUGCUP_ENGINE.dir/Log.cpp.o.d"
   "CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o"
   "CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o.d"
   "CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o"
