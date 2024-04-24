@@ -1,7 +1,6 @@
 #pragma once
-#include <string>
-#include <utility>
-#include "GLFW/glfw3.h"
+#include "MUGCUP_PCH.h"
+#include <GLFW/glfw3.h>
 
 namespace MUGCUP
 {
@@ -18,11 +17,12 @@ namespace MUGCUP
             bool VSync;
 
             explicit Properties(std::string  _title = "MUGCUP ENGINE",
-                       unsigned int _width  = 1600,
-                       unsigned int _height = 900):
+                                unsigned int _width  = 1600,
+                                unsigned int _height = 900):
                     Title(std::move(_title)),
                     Width(_width),
-                    Height(_height)
+                    Height(_height),
+                    VSync(false)
             {
 
             }
@@ -32,7 +32,7 @@ namespace MUGCUP
 
     public:
 
-        explicit Window(const Properties& _props);
+        explicit Window(const Properties& _props = Properties());
         ~Window();
 
         void Update();

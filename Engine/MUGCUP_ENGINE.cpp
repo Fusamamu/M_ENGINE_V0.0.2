@@ -4,8 +4,9 @@ namespace MUGCUP
 {
     Engine::Engine():
     m_Running(false),
-    m_Window(Window::CreateWindow())
+    m_Window(nullptr)
     {
+        m_Window = std::unique_ptr<Window>(Window::CreateWindow());
     }
 
     Engine::~Engine()
@@ -31,7 +32,6 @@ namespace MUGCUP
     void Engine::Quit()
     {
         m_Running = false;
-        delete m_Window;
     }
 }
 

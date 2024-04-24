@@ -110,19 +110,45 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_MUGCUP_ENGINE: phony || Engine/CMakeFiles/MUGCUP_ENGINE.dir
 
-build Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o: CXX_COMPILER__MUGCUP_ENGINE_unscanned_Debug /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/MUGCUP_ENGINE.cpp || cmake_object_order_depends_target_MUGCUP_ENGINE
-  DEP_FILE = Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o.d
-  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+build Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch: CXX_COMPILER__MUGCUP_ENGINE_unscanned_Debug /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.cxx | Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx || cmake_object_order_depends_target_MUGCUP_ENGINE
+  DEFINES = -DMUGCUP_PLATFORM_MACOS
+  DEP_FILE = Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch.d
+  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx -x c++-header
   INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
   OBJECT_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
   OBJECT_FILE_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
 
-build Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o: CXX_COMPILER__MUGCUP_ENGINE_unscanned_Debug /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Window.cpp || cmake_object_order_depends_target_MUGCUP_ENGINE
-  DEP_FILE = Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o.d
-  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+build Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o: CXX_COMPILER__MUGCUP_ENGINE_unscanned_Debug /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/MUGCUP_ENGINE.cpp | Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_MUGCUP_ENGINE
+  DEFINES = -DMUGCUP_PLATFORM_MACOS
+  DEP_FILE = Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
   INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
   OBJECT_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
   OBJECT_FILE_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
+
+build Engine/CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o: CXX_COMPILER__MUGCUP_ENGINE_unscanned_Debug /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Engine.cpp | Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_MUGCUP_ENGINE
+  DEFINES = -DMUGCUP_PLATFORM_MACOS
+  DEP_FILE = Engine/CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
+  INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
+  OBJECT_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
+  OBJECT_FILE_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
+
+build Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o: CXX_COMPILER__MUGCUP_ENGINE_unscanned_Debug /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Window.cpp | Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_MUGCUP_ENGINE
+  DEFINES = -DMUGCUP_PLATFORM_MACOS
+  DEP_FILE = Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
+  INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
+  OBJECT_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
+  OBJECT_FILE_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
+
+build Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o: CXX_COMPILER__MUGCUP_ENGINE_unscanned_Debug /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/Events/Event.cpp | Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_MUGCUP_ENGINE
+  DEFINES = -DMUGCUP_PLATFORM_MACOS
+  DEP_FILE = Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -Winvalid-pch -Xclang -include-pch -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/cmake-build-debug/Engine/CMakeFiles/MUGCUP_ENGINE.dir/cmake_pch.hxx
+  INCLUDES = -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/include -I/Users/pengaki/Desktop/MUGCUP_ENGINE/M_ENGINE_V0.0.2/Engine/../Dependencies/GLFW/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
+  OBJECT_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir
+  OBJECT_FILE_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events
 
 
 # =============================================================================
@@ -132,7 +158,7 @@ build Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o: CXX_COMPILER__MUGCUP_ENG
 #############################################
 # Link the static library Engine/libMUGCUP_ENGINE.a
 
-build Engine/libMUGCUP_ENGINE.a: CXX_STATIC_LIBRARY_LINKER__MUGCUP_ENGINE_Debug Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o
+build Engine/libMUGCUP_ENGINE.a: CXX_STATIC_LIBRARY_LINKER__MUGCUP_ENGINE_Debug Engine/CMakeFiles/MUGCUP_ENGINE.dir/MUGCUP_ENGINE.cpp.o Engine/CMakeFiles/MUGCUP_ENGINE.dir/Engine.cpp.o Engine/CMakeFiles/MUGCUP_ENGINE.dir/Window.cpp.o Engine/CMakeFiles/MUGCUP_ENGINE.dir/Events/Event.cpp.o
   ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = Engine/CMakeFiles/MUGCUP_ENGINE.dir

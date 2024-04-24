@@ -1,4 +1,4 @@
-#include <MUCGUP_ENGINE_CORE>
+#include <MUGCUP_ENGINE>
 
 int main()
 {

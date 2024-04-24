@@ -1,20 +1,4 @@
 #pragma once
 #include "Window.h"
+#include "Engine.h"
 
-namespace MUGCUP
-{
-    class Engine
-    {
-    public:
-        Engine();
-        ~Engine();
-
-        void Start();
-        void Update();
-        void Quit();
-
-    private:
-        bool m_Running;
-        Window* m_Window;
-    };
-}
